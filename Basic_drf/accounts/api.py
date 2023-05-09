@@ -1,5 +1,4 @@
 
-
 #Register Api
 from rest_framework import generics,permissions,mixins
 from rest_framework.response import Response

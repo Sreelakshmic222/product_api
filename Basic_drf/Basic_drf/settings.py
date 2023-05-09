@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'Basic_drf.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'api_db',
-        'USER':'root',
-        'PASSWORD':'7b!ACb139#@r',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'products_API_db',
+        'USER':'postgres',
+        'PASSWORD':'ACb165#r',
         'HOST': 'localhost',
-        'PORT':3306,
+        'PORT':5432,
 
 
     }
